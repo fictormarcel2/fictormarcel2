@@ -32,7 +32,6 @@ Computer science student at **FH Aachen** building full-stack products, AI tooli
 * **Agents:** based on two 2025 HCI papers (DialogLab, Inner Thoughts). Each agent keeps hidden thoughts, scores them, and only speaks when it has something worth adding.
 * **Stack:** Python + FastAPI, PostgreSQL with SQLAlchemy and Alembic, React + Vite + TypeScript, Server-Sent Events and OpenAI-compatible LLMs, all running in Docker Compose.
 * **Transparency:** messages, agent thoughts and document fields are logged separately and shown side by side, with each field marked as found, uncertain or missing and linked to the message it came from.
-* **Process:** team of 4 in one-week Scrum sprints, with architecture rules enforced in GitLab CI and LLM behaviour tested against scripted responses.
 
 ### 🧹 [Untangle Everything](https://github.com/fictormarcel2/untangle-everything)
 *An agent skill for Claude Code, Cursor and Codex that audits and refactors AI-generated codebases, with a human approving every decision.*
